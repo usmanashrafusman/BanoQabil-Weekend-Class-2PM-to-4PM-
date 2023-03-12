@@ -1,0 +1,107 @@
+h1 {
+    color: #d13ad1;
+}
+
+ul li {
+    font-size: 32;
+    color: #60fc17;
+    background-color: bisque;
+}
+
+.red-li li {
+    font-size: 32;
+    color: #60fc17;
+    background-color: red;
+}
+
+.blue-li li {
+    font-size: 32;
+    color: #60fc17;
+    background-color: blue;
+}
+
+.intro {
+    height: 200px;
+    width: 200px;
+    background-color: #000;
+    /* border: 5px blue solid; */
+    /* padding: 20px; */
+    cursor: pointer;
+    display: inline-block;
+    /* margin: 20px; */
+    /* margin-left:150px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 40px; */
+    /* margin: 50px 40px 20px 150px; */
+    /* margin: 50px 100px; */
+    /* margin: 20px; */
+    /* border-width: 2px;
+    border-color:blue ;
+    border-style: solid; */
+}
+
+.intro img {
+    height: 100px;
+    width: 200px;
+}
+
+
+.intro img:hover p {
+    font-size: 32px;
+    height: 400px;
+    width: 300px
+}
+
+.intro p {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.nav {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: #60fc17;
+}
+
+.color-para {
+    font-weight: 900;
+    letter-spacing: 14px;
+    word-spacing: 67px;
+    text-transform: uppercase;
+    color: blueviolet
+}
+
+@media screen and  (min-width: 325px) and (max-width: 600px){
+    .color-para{
+        word-spacing: 10px;
+    }
+  }
+
+
+  /* Small Size */
+
+  @media screen and  (min-width: 576px) and (max-width: 767px){
+   .intro {
+    width: 100%;
+   }
+  }
+
+  /* Medium Size */
+
+  @media screen and  (min-width: 767px) and (max-width: 991px){
+    .intro {
+     width: 49%;
+    }
+   }
+
+     /* Large Size */
+
+  @media screen and  (min-width: 992px) and (max-width: 1199px){
+    .intro {
+     width: 33%;
+    }
+   }
