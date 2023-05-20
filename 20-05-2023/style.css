@@ -1,0 +1,16 @@
+.products div , .cart div {
+    display: flex;
+    height: 40px;
+    margin: 20px;
+    border: 1px solid #000;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+box-sizing: border-box;
+    justify-content: space-between;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+
+}
